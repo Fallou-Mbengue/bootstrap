@@ -1,0 +1,313 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!
+{% endblock %}
+
+{% block body %}
+
+	<!-- ======= Hero Section ======= -->
+	<section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+		<div
+			id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+			<!-- Slide 1 -->
+			<div class="carousel-item active mt-5">
+				<div class="carousel-container">
+					<h2 class="animate__animated animate__fadeInDown">Bienvenue dans votre nouvelle plateforme
+						<span>
+							de logement</span>
+					</h2>
+					<p class="animate__animated fanimate__adeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+					<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Lire Plus</a>
+				</div>
+			</div>
+		</section>
+		<!-- End Hero -->
+
+		<!--  Service-->
+		<section id="services" class="services">
+			<div class="container">
+
+				<div class="section-title" data-aos="zoom-out">
+					<h2>Services</h2>
+					<p>Ce que nous offrons</p>
+				</div>
+			</div>
+		</section>
+		<!--  End service-->
+
+		<!--creation de carte  Div 1-->
+
+		<div
+			class="row" style="margin-left:60px; margin-top: 50px">
+			<!--  card 1 -->
+			<div class="card mb-3" style="width: 23rem; margin-left: 20px">
+				<h3 class="card-header">
+					<font style="vertical-align: inherit;">
+						<font style="vertical-align: inherit;">Complexes hôteliers</font>
+					</font>
+				</h3>
+				<div class="card-body">
+					<h5 class="card-title">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Traitement spécial des titres</font>
+						</font>
+					</h5>
+					<h6 class="card-subtitle text-muted">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Sous-titre de la carte de support</font>
+						</font>
+					</h6>
+				</div>
+				<img src="{{asset('assets/img/3.jpeg')}}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="card-text">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</font>
+						</font>
+					</p>
+				</div>
+
+
+			</div>
+			<!--  end card 1 -->
+
+			<!-- card 2 -->
+			<div class="card mb-3" style="width: 23rem; margin-left: 20px">
+				<h3 class="card-header">
+					<font style="vertical-align: inherit;">
+						<font style="vertical-align: inherit;">Appartements</font>
+					</font>
+				</h3>
+				<div class="card-body">
+					<h5 class="card-title">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Traitement spécial des titres</font>
+						</font>
+					</h5>
+					<h6 class="card-subtitle text-muted">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Sous-titre de la carte de support</font>
+						</font>
+					</h6>
+				</div>
+				<img src="{{asset('assets/img/7.jpeg')}}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="card-text">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</font>
+						</font>
+					</p>
+				</div>
+
+			</div>
+			<!-- End card 2 -->
+
+			<!-- card 3-->
+			<div class="card mb-3" style="width: 23rem; margin-left: 20px">
+				<h3 class="card-header">
+					<font style="vertical-align: inherit;">
+						<font style="vertical-align: inherit;">Appart'hôtels</font>
+					</font>
+				</h3>
+				<div class="card-body">
+					<h5 class="card-title">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Traitement spécial des titres</font>
+						</font>
+					</h5>
+					<h6 class="card-subtitle text-muted">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Sous-titre de la carte de support</font>
+						</font>
+					</h6>
+				</div>
+				<img src="{{asset('assets/img/9.jpeg')}}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="card-text">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</font>
+						</font>
+					</p>
+				</div>
+
+			</div>
+			<!--  End card 3-->
+
+
+		</div>
+
+		<!-- creation de carte Div 2 -->
+		<div
+			class="row" style="margin-left:60px; margin-top: 50px">
+			<!-- card 4-->
+			<div class="card mb-3" style="width: 23rem; margin-left: 20px">
+				<h3 class="card-header">
+					<font style="vertical-align: inherit;">
+						<font style="vertical-align: inherit;">Chambres d'hôtes</font>
+					</font>
+				</h3>
+				<div class="card-body">
+					<h5 class="card-title">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Traitement spécial des titres</font>
+						</font>
+					</h5>
+					<h6 class="card-subtitle text-muted">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Sous-titre de la carte de support</font>
+						</font>
+					</h6>
+				</div>
+				<img src="{{asset('assets/img/7.jpeg')}}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="card-text">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</font>
+						</font>
+					</p>
+				</div>
+
+
+			</div>
+			<!-- End card 4 -->
+
+			<!-- card 5-->
+			<div class="card mb-3" style="width: 23rem; margin-left: 20px">
+				<h3 class="card-header">
+					<font style="vertical-align: inherit;">
+						<font style="vertical-align: inherit;">Camping de luxe</font>
+					</font>
+				</h3>
+				<div class="card-body">
+					<h5 class="card-title">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Traitement spécial des titres</font>
+						</font>
+					</h5>
+					<h6 class="card-subtitle text-muted">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Sous-titre de la carte de support</font>
+						</font>
+					</h6>
+				</div>
+				<img src="{{asset('assets/img/8.jpeg')}}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="card-text">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</font>
+						</font>
+					</p>
+				</div>
+
+			</div>
+			<!-- End card 5 -->
+
+			<!--  Card 6 -->
+			<div class="card mb-3" style="width: 23rem; margin-left: 20px">
+				<h3 class="card-header">
+					<font style="vertical-align: inherit;">
+						<font style="vertical-align: inherit;">Logements - cuisine</font>
+					</font>
+				</h3>
+				<div class="card-body">
+					<h5 class="card-title">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Traitement spécial des titres</font>
+						</font>
+					</h5>
+					<h6 class="card-subtitle text-muted">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Sous-titre de la carte de support</font>
+						</font>
+					</h6>
+				</div>
+				<img src="{{asset('assets/img/10.jpeg')}}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="card-text">
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</font>
+						</font>
+					</p>
+				</div>
+
+
+			</div>
+			<!--  End card 6-->
+
+
+		</div>
+
+
+		<!-- ======= Contact Section ======= -->
+		<section id="contact" class="contact">
+			<div class="container">
+
+				<div class="section-title" data-aos="zoom-out">
+					<h2>Contact</h2>
+					<p>Nous Contacter</p>
+				</div>
+
+				<div class="row mt-5">
+
+					<div class="col-lg-4" data-aos="fade-right">
+						<div class="info">
+							<div class="address">
+								<i class="bi bi-geo-alt"></i>
+								<h4>Adresse:</h4>
+								<p>Dakar/Sénégal</p>
+							</div>
+
+							<div class="email">
+								<i class="bi bi-envelope"></i>
+								<h4>Email:</h4>
+								<p>info@habitatsenegal.com</p>
+							</div>
+
+							<div class="phone">
+								<i class="bi bi-phone"></i>
+								<h4>Téléphone:</h4>
+								<p>+221 33 8652356</p>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+						<form action="forms/contact.php" method="post" role="form" class="php-email-form">
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+								</div>
+								<div class="col-md-6 form-group mt-3 mt-md-0">
+									<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+								</div>
+							</div>
+							<div class="form-group mt-3">
+								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+							</div>
+							<div class="form-group mt-3">
+								<textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+							</div>
+							<div class="my-3">
+								<div class="loading">Loading</div>
+								<div class="error-message"></div>
+								<div class="sent-message">Your message has been sent. Thank you!</div>
+							</div>
+							<div class="text-center">
+								<button type="submit">Send Message</button>
+							</div>
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<!-- End Contact Section -->
+
+
+	{% endblock %}
